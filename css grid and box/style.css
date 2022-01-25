@@ -1,0 +1,120 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-width: 5px;
+    border-style: groove;
+}
+
+header img{
+    height: 60px;
+    border-style: groove;
+}
+
+.hed1 {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: groove;
+}
+
+.menu {
+    display: flex;
+    border-style: groove;
+}
+
+.menu li {
+    margin-left: 10px;
+    padding: 10px
+}
+
+.corpo {
+    display: flex;
+    min-height: 550px;
+    height: 100%;
+}
+
+.left {
+    width: 25%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left li{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+}
+
+.block {
+    background-color: chartreuse;
+    padding: 1px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#lef {
+    background-color: cornflowerblue;
+}
+
+#rig {
+    background-color: darkgray;
+}
+
+.cont {
+    height: 45%;
+    width: 80%;
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.final {
+    background-color: darkturquoise;
+    height: 90%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final2 {
+    background-color: darkturquoise;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: deeppink;
+    padding: 10px;
+    height: 50px;
+}
